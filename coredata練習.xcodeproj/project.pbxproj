@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		4D9E1BA326B4031F00016316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E1BA226B4031F00016316 /* AppDelegate.swift */; };
 		4D9E1BA526B4031F00016316 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E1BA426B4031F00016316 /* SceneDelegate.swift */; };
-		4D9E1BA726B4031F00016316 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E1BA626B4031F00016316 /* ViewController.swift */; };
 		4D9E1BAA26B4031F00016316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E1BA826B4031F00016316 /* Main.storyboard */; };
 		4D9E1BAD26B4031F00016316 /* coredata__.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E1BAB26B4031F00016316 /* coredata__.xcdatamodeld */; };
 		4D9E1BAF26B4032300016316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E1BAE26B4032300016316 /* Assets.xcassets */; };
 		4D9E1BB226B4032300016316 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E1BB026B4032300016316 /* LaunchScreen.storyboard */; };
+		4D9E1BBA26B403DE00016316 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E1BB926B403DE00016316 /* HomeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D9E1B9F26B4031F00016316 /* coredata練習.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coredata練習.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9E1BA226B4031F00016316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D9E1BA426B4031F00016316 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D9E1BA626B4031F00016316 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D9E1BA926B4031F00016316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D9E1BAC26B4031F00016316 /* coredata__.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coredata__.xcdatamodel; sourceTree = "<group>"; };
 		4D9E1BAE26B4032300016316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D9E1BB126B4032300016316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D9E1BB326B4032300016316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D9E1BB926B403DE00016316 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 			children = (
 				4D9E1BA226B4031F00016316 /* AppDelegate.swift */,
 				4D9E1BA426B4031F00016316 /* SceneDelegate.swift */,
-				4D9E1BA626B4031F00016316 /* ViewController.swift */,
 				4D9E1BA826B4031F00016316 /* Main.storyboard */,
+				4D9E1BB926B403DE00016316 /* HomeTableViewController.swift */,
 				4D9E1BAE26B4032300016316 /* Assets.xcassets */,
 				4D9E1BB026B4032300016316 /* LaunchScreen.storyboard */,
 				4D9E1BB326B4032300016316 /* Info.plist */,
@@ -141,9 +141,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D9E1BAD26B4031F00016316 /* coredata__.xcdatamodeld in Sources */,
-				4D9E1BA726B4031F00016316 /* ViewController.swift in Sources */,
 				4D9E1BA326B4031F00016316 /* AppDelegate.swift in Sources */,
 				4D9E1BA526B4031F00016316 /* SceneDelegate.swift in Sources */,
+				4D9E1BBA26B403DE00016316 /* HomeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

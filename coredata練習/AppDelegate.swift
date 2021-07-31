@@ -78,4 +78,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
-
+//擴充存檔功能 監控如果有更新檔案就儲存
+extension NSPersistentContainer {
+    func saveContext () {
+        if viewContext.hasChanges {
+            do {
+                try viewContext.save()
+            } catch {
+                let nserror = error as NSError
+                fatalError("錯誤 error \(nserror), \(nserror.userInfo)")
+            }
+        }
+    }
+}
